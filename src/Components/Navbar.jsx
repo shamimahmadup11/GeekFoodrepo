@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-blue-950 min-h-18 h-auto w-screen flex flex-col lg:flex-row lg:justify-between items-center lg:gap-8 px-8">
+      <nav className="bg-blue-950 min-h-20 h-auto w-screen flex flex-col lg:flex-row lg:justify-between items-center lg:gap-8 px-8">
         <div className="flex items-center">
           <a href="/">
             <img
@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <button className="bg-green-900 h-10 w-32 hover:bg-green-600 text-white rounded-md text-xl font-bold ">
+          <button className="bg-green-900 h-12 w-32 hover:bg-green-600 text-white rounded-md text-xl font-bold ">
             Log in
           </button>
         </div>
