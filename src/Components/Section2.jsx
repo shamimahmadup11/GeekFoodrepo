@@ -19,8 +19,6 @@ const Section2 = () => {
           tempora molestias dolorum non facere ipsum aut quae aliquid, id, ipsam
           quos corrupti! Id.
         </h1>
-        <h1 className="text-black text-xl p-10 " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est esse numquam odio deleniti, beatae, magni dolores provident quaerat totam eos, aperiam architecto eius quis quibusdam fugiat dicta.</h1>
-
         <button className="w-full lg:w-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">
             Search Now
           </button>
