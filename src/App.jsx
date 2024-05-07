@@ -4,22 +4,57 @@ import Section2 from './Components/Section2'
 import Section3 from './Components/Section3'
 import './App.css'
 import Footer from './Components/Footer'
-
+import { createBrowserRouter, RouterProvider  } from 'react-router-dom'
+import Qoute from './Components/Qoute'
 
 function App() {
+  const router= createBrowserRouter([
+    {
+    path:"/",
+    element:<>
+    <Navbar/>
+    <Body/>
+        <Section2/>
+        <Section3 />
+         <Footer/>
+         </>
+    },
+    {
+      path:"/Qoute",
+      element: <>
+       <Navbar/>
+       <Qoute/>
+       <Footer/>
+      </>
+
+    },
+   
+  ])
 
   return (
-   
-    <div className='flex align-middle justify-center flex-col overflow-x-hidden'>
-      <Navbar/>
-     <Body/>
-     <Section2/>
-     <Section3 />
-     <Footer/>
+    <div className='app'>
+      <RouterProvider router={router}/>
     </div>
-     
-  
   )
 }
 
-export default App
+export default App;
+
+
+// function App() {
+
+//   return (
+   
+//     <div className='flex align-middle justify-center flex-col overflow-x-hidden'>
+//       <Navbar/>
+//      <Body/>
+//      <Section2/>
+//      <Section3 />
+//      <Footer/>
+//     </div>
+     
+  
+//   )
+// }
+
+// export default App

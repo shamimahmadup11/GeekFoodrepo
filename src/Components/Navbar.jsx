@@ -1,5 +1,5 @@
 
-
+import { Link } from "react-router-dom";
 import "../App.css";
 
 const Navbar = () => {
@@ -29,9 +29,12 @@ const Navbar = () => {
           
             </li>
             <li>
+              <Link to="/Qoute">
               <a href="/" className="text-white hover:text-green-600">
                 Quote
               </a>
+              </Link>
+              
             </li>
             <li>
               <a href="/" className="text-white hover:text-green-600">
