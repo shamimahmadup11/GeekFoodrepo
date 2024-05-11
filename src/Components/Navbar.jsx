@@ -23,9 +23,11 @@ const Navbar = () => {
         <div className="flex-grow lg:flex lg:justify-center lg:gap-12">
           <ul className="flex flex-col lg:flex-row justify-center lg:justify-start gap-4 lg:gap-12 lg:text-xl font-semibold">
             <li>
+              <Link to="/">
               <a href="./Home" className="text-white hover:text-green-600">
                Home
-              </a>
+              </a></Link>
+             
           
             </li>
             <li>
@@ -37,9 +39,12 @@ const Navbar = () => {
               
             </li>
             <li>
+              <Link to="/Restrount">
               <a href="/" className="text-white hover:text-green-600">
                 Restaurant
               </a>
+              </Link>
+             
             </li>
             <li>
               <a href="/" className="text-white hover:text-green-600">

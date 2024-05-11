@@ -6,6 +6,7 @@ import './App.css'
 import Footer from './Components/Footer'
 import { createBrowserRouter, RouterProvider  } from 'react-router-dom'
 import Qoute from './Components/Qoute'
+import Restrount from './Components/Restrount'
 
 function App() {
   const router= createBrowserRouter([
@@ -13,7 +14,7 @@ function App() {
     path:"/",
     element:<>
     <Navbar/>
-    <Body/>
+       <Body/>
         <Section2/>
         <Section3 />
          <Footer/>
@@ -26,7 +27,14 @@ function App() {
        <Qoute/>
        <Footer/>
       </>
-
+    },
+    {
+      path:"/Restrount",
+      element: <>
+       <Navbar/>
+       <Restrount/>
+       <Footer/>
+      </>
     },
    
   ])
@@ -41,20 +49,4 @@ function App() {
 export default App;
 
 
-// function App() {
 
-//   return (
-   
-//     <div className='flex align-middle justify-center flex-col overflow-x-hidden'>
-//       <Navbar/>
-//      <Body/>
-//      <Section2/>
-//      <Section3 />
-//      <Footer/>
-//     </div>
-     
-  
-//   )
-// }
-
-// export default App
