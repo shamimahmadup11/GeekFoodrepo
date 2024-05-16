@@ -13,7 +13,6 @@ const Restrount = () => {
         obj.name.toLowerCase().includes(searchText.toLowerCase()) &&
         obj.rating >= number
     );
-
     setFilteredData(newData);
   }, [searchText, number]);
 
