@@ -45,12 +45,16 @@ const Navbar = () => {
               </a>
               </Link>
              
+
             </li>
+            <Link to="/Food">
             <li>
               <a href="/" className="text-white hover:text-green-600">
                 Foods
               </a> 
             </li>
+            </Link>
+           
             <li>
               <a href="/" className="text-white hover:text-green-600 ">
                 Contact 

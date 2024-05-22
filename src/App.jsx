@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 import { createBrowserRouter, RouterProvider  } from 'react-router-dom'
 import Qoute from './Components/Qoute'
 import Restrount from './Components/Restrount'
+import Food from './Components/Food'
 
 function App() {
   const router= createBrowserRouter([
@@ -33,6 +34,14 @@ function App() {
       element: <>
        <Navbar/>
        <Restrount/>
+       <Footer/>
+      </>
+    },
+    {
+      path:"/Food",
+      element: <>
+       <Navbar/>
+       <Food/>
        <Footer/>
       </>
     },
